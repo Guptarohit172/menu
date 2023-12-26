@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(19, 203, 77);
+    
+}
+#con{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(24, 15, 15);
+    display: block;
+    padding: 20px;
+}
+a:hover{
+    color: blue;
+    background-color: rgb(33, 39, 39);
+}
+#veg{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    display: none;
+}
+#a:hover #veg{
+ display: block;
+}
+#non{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    display: none; 
+}
+#b:hover #non{
+    display: block; 
+}
+#drink{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    display: none; 
+}
+#c:hover #drink{
+    display: block; 
+}
